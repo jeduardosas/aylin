@@ -1,0 +1,34 @@
+
+
+      
+  .vestimenta{
+    margin-top: 50px;
+  }
+
+  .vestimenta-title{
+    font-family: var(--cursiva);
+    text-align:center;
+  }
+  
+  .vestimenta-card{
+    background-color:var(--color_card);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px var(--grisSombra);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .vestimenta-card-title{
+    text-transform: uppercase;
+  }
+  .vestimenta-card-colors{
+    margin-top: 20px;
+    display:flex;
+    gap: 10px;
+  }
+  .vestimenta-card-colors p{
+    text-align:center;
+  }
