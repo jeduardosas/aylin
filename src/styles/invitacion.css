@@ -25,13 +25,13 @@
   z-index: -100;
 }
 .img-fondo-1{
-  top: -100px;
-  left: -50px;
+  top: 0;
+  left: 0;
 
 }
 .img-fondo-2{
-  bottom:-50px;
-  right: -80px;
+  bottom:0;
+  right: 0;
 }
 .img-fondo img{
   max-width: 300px;
@@ -223,7 +223,7 @@
   color:var(--color_detalles);
 }
 .ubicaciones-card_card .card_icon img{
-  width: 70%;
+  width: 20%;
 }
 .card-hora{
   font-weight: bold;

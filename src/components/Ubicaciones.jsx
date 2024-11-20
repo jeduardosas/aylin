@@ -14,7 +14,7 @@ const Ubicaciones = ({cardCeremoniaVisible,cardRecepcionVisible, data = {}}) => 
       <div className="ubicaciones-cards">
         <div id='cardCeremoniaSection' className={`ubicaciones-card_card sombra ${cardCeremoniaVisible && 'animate__animated animate__fadeInLeft'}`}>
           <div className='card_icon'>
-            <img src='./img/img_iglesia.webp' alt="icon-church" />
+            <img src='./img/icons/CHURCH.svg' alt="icon-church" />
           </div>
           <div>
             <h3 className='card-title'>Ceremonia Religiosa</h3>
@@ -39,7 +39,7 @@ const Ubicaciones = ({cardCeremoniaVisible,cardRecepcionVisible, data = {}}) => 
 
         <div id='cardRecepcionSection' className={`ubicaciones-card_card sombra ${cardRecepcionVisible && 'animate__animated animate__fadeInRight'}`}>
           <div className='card_icon'>
-            <img src="/img/img_salon.webp" alt="" />
+            <img src="/img/icons/recepcion.svg" alt="" />
           </div>
           <div >
             <h3 className='card-title'>Recepción</h3>

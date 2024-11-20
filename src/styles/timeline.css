@@ -1,5 +1,6 @@
 .timeline{
   width: 100%;
+  margin-top: 100px;
 }
 .timeline-title-cont{
   text-align: center;
@@ -10,7 +11,7 @@
 }
 
 .custom-date-color{
-  color:#4b541f !important;
+  color:var(--color_secundario) !important;
   margin-left: 10px;
   padding: 10px 0 !important;
   font-size: 20px !important;

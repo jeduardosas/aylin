@@ -1,12 +1,12 @@
 const datosComunes = {
-  frase:'Hay momentos en la vida que son especiales por si solos, compartirlos con las personas que quieres los convierte en inolvidables.',
+  frase:'Hace quince años nació un hermosa niña, enviada por Dios para ser criada y formada como el más grande tesoro. Hay momentos en la vida que imaginamos, soñamos y esperamos. Uno de esos momentos ha llegado',
   imagenes:{
     imgHeader:'header',
-    imgBanner1:'flor1',
-    imgBanner2:'flor4',
-    imgBanner3:'flor5',
-    imgFondo1:'flor2',
-    imgFondo2:'flor3'
+    imgBanner1:'banner',
+    imgBanner2:'',
+    imgBanner3:'',
+    imgFondo1:'flor1',
+    imgFondo2:'flor2'
   },
   fechaDia:'13',
   fechaMes:'Diciembre',
@@ -22,8 +22,8 @@ const datosComunes = {
 
   },
   recepcion:{
-    hora:'20',
-    minutos:'00',
+    hora:'19',
+    minutos:'30',
     lugar:'Salon Mahogani',
     direccion:'Industria de la Tranformación, 18',
     direccionCol:'Ciudad Industrial',
@@ -31,8 +31,9 @@ const datosComunes = {
     ubicacion:'https://maps.app.goo.gl/KshspZofyYZdafC86'
   },
   regalos:{
-    frase:'El mejor regalo es tu presencia, pero si gustas dar un obsequio y no conoces mis gustos la opción es: La Lluvia de Sobres, que es la tradición de regalar dinero en efectivo a la quinceañera en un sobre, el cual se les proporcionará en la entrada del evento.',
-    url:''
+    frase:'Lo más importante para mí, es tu presencia a mis XV años, si deseas tener un presente conmigo puede ser en efectivo.',
+    url:'https://mesaderegalos.liverpool.com.mx/milistaderegalos/51573682',
+    numMesa:'51573682'
   },
   timeLine:{
     settings:{
@@ -43,7 +44,7 @@ const datosComunes = {
     protocol:[
       {
         id:1,
-        time:'19:00 Hrs', 
+        time:'18:00 Hrs', 
         name:'Ceremonia Religiosa',
         icon:'CHURCH',
         color:'var(--color_tex)',
@@ -52,7 +53,7 @@ const datosComunes = {
 
       {
         id:2,
-        time:'20:30 Hrs',
+        time:'19:30 Hrs',
         name:'Recepción',
         icon:'recepcion',
         color:'var(--color_timeline)',
@@ -61,17 +62,17 @@ const datosComunes = {
 
       {
         id:3,
-        time:'21:30 Hrs',
-        name:'Cena',
-        icon:'comida',
+        time:'21:00 Hrs',
+        name:'protocolo',
+        icon:'brindis',
         color:'var(--color_timeline)',
         textColor:'rgb(218 167 88)'
       },
       {
         id:4,
-        time:'22:30 Hrs',
-        name:'Vals',
-        icon:'bailarina',
+        time:'22:00 Hrs',
+        name:'cena',
+        icon:'comida',
         color:'var(--color_timeline)',
         textColor:'rgb(218 167 88)'
       },
@@ -91,11 +92,11 @@ const datosComunes = {
       direccion:'Miguel Hidalgo, 7',
       direccion_colonia:'centro, Iguala de la Independencia, Gro',
       telefono:'7333326990',
-      ubicacion:'https://maps.app.goo.gl/GK7ARLS9ESHJT2pa8'
+      ubicacion:'https://maps.app.goo.gl/NkFEjPR5RvDaP3477'
     },
     {
       nombre:'Hotel Reforma #14',
-      direccion:'Refroma, 14',
+      direccion:'Reforma, 14',
       direccion_colonia:'centro, Iguala de la Independencia, Gro',
       telefono:'7331517327',
       ubicacion:'https://maps.app.goo.gl/m4UMcsUnELYm3NaH8'
@@ -156,12 +157,9 @@ const tipoevento={
       padrino:'Victor Manuel Vite Vite',
       madrina:'Everlyn Astudillo Gómez'
     },
-    confirmacion:'7331252076'
+    confirmacion:'7331094631'
   }
 }
-
- 
-
 
 const getData = (type)=>{
   return {...datosComunes, ...tipoevento[type] }

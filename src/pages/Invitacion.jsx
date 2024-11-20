@@ -146,26 +146,27 @@ const Invitacion = () => {
               data={data}/>
             </div>
 
-            <div className="banner">
+            {/* <div className="banner">
               <img src={`./img/${data.imagenes.imgBanner2}.webp`} alt="img-banner" />
-            </div>
+            </div> */}
       
             <TimeLine 
             data={data} />
 
-            <div className="banner">
+            {/* <div className="banner">
               <img src={`./img/${data.imagenes.imgBanner3}.webp`} alt="img_banner" />
-            </div>
+            </div> */}
 
       
 
-              <CodigoVestimenta />
+              <CodigoVestimenta 
+                data={data} />
               <Regalos 
                 data={data} />
 
-            <div className="slider">
+            {/* <div className="slider">
               <Slider />
-            </div>
+            </div> */}
 
             <div className="lugares">
               <Reservacion pases={pases} />
@@ -176,9 +177,9 @@ const Invitacion = () => {
                 data={data} />
             </div>
 
-            <div className="banner">
+            {/* <div className="banner">
               <img src={`./img/${data.imagenes.imgBanner1}.webp`} alt="img_banner" />
-            </div>
+            </div> */}
             
             <Hoteles 
               data={data} />

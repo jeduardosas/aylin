@@ -1,10 +1,9 @@
 :root{
   --fuentePrincipal:"Lora", serif;
   --cursiva: "Rouge Script", cursive;
-  --color_principal:#eea7b6;  /* b68384 */
-  --color_secundario:#d8c9ba;
-  --color_text:#d895b1;
-  --back-color:#fae6e7;
+  --color_principal:#82659d;  /* b68384 */
+  --color_secundario:#9f86c0;
+  --back-color:#e5d9f2;
   --grisSombra: #bdbdbd;
   --black:#000000;
   --color_card:#f7f2ec;
